@@ -15,7 +15,7 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0a0e1a;
+            background-color: #003366;
             color: #cbd5e1;
         }
         .tab-active {
@@ -44,7 +44,7 @@
             <div class="flex items-center justify-between">
                 <!-- LOGO: O texto foi substituído por uma imagem. Altere o 'src' para o URL do seu logo. -->
                 <a href="#home">
-                    <img src="logo-certus.png" alt="Logo Certus Cyber" class="h-10 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/200x50/0a0e1a/ffffff?text=Certus+Cyber';">
+                    <img src="logo-certus.png" alt="Logo Certus Cyber" class="h-10 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/200x50/003366/ffffff?text=Certus+Cyber';">
                 </a>
                 <nav class="hidden md:flex items-center space-x-8">
                     <a href="#problema" class="nav-link font-semibold text-slate-300">O Problema</a>
@@ -69,7 +69,7 @@
         <section id="home" class="pt-32 pb-20 md:pt-48 md:pb-32 bg-slate-900">
             <div class="container mx-auto px-6 text-center">
                 <h1 class="text-4xl md:text-6xl font-bold leading-tight text-white mb-4">A diretiva certa para a segurança do seu ambiente.</h1>
-                <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8">Fortalecemos a <strong class="text-slate-100">resiliência</strong> do seu <strong class="text-slate-100">Active Directory e Entra ID</strong>, reduzindo drasticamente a <strong class="text-slate-100">superfície de ataque</strong> e garantindo uma <strong class="text-slate-100">recuperação rápida e segura</strong> em caso de incidentes.</p>
+                <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8">Fortalecemos a <strong class="text-slate-100">resiliência</strong> do seu <strong class="text-slate-100">Active Directory e Entra ID</strong>, reduzindo drasticamente a <strong class="text-slate-100">superfície de ataque</strong> e viabilizando uma <strong class="text-slate-100">recuperação rápida e segura</strong> em caso de incidentes.</p>
                 <a href="https://calendar.app.google/3NRCeNPcGCMsbW1y7" target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-blue-600 text-white font-bold text-lg py-4 px-8 rounded-lg shadow-xl shadow-blue-600/20 hover:bg-blue-700">Agende sua Avaliação Gratuita</a>
             </div>
         </section>
@@ -189,11 +189,21 @@
 
     <footer class="bg-slate-900 border-t border-slate-800 py-8">
         <div class="container mx-auto px-6 text-center">
-            <p class="text-slate-300">&copy; 2025 Certus Cyber. Todos os direitos reservados.</p>
-            <p class="text-slate-400 text-sm mt-2">Segurança e Resiliência para seu Active Directory.</p>
-            <div class="mt-4 space-x-6">
-                 <a href="mailto:contato@certuscyber.com.br" class="text-blue-400 hover:text-blue-300">contato@certuscyber.com.br</a>
-                 <a href="https://linkedin.com/company/certus-cyber" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">LinkedIn</a>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                <!-- Informações de Contato -->
+                <div>
+                    <p class="text-slate-300">&copy; 2025 Certus Cyber. Todos os direitos reservados.</p>
+                    <p class="text-slate-400 text-sm mt-2">Segurança e Resiliência para seu Active Directory.</p>
+                    <div class="mt-4 space-x-6">
+                        <a href="mailto:contato@certuscyber.com.br" class="text-blue-400 hover:text-blue-300">contato@certuscyber.com.br</a>
+                        <a href="https://linkedin.com/company/certus-cyber" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">LinkedIn</a>
+                    </div>
+                </div>
+                <!-- QR Code -->
+                <div class="text-center">
+                    <img src="qrCode.jpeg" alt="QR Code para Cartão de Visitas Virtual" class="w-24 h-24 mx-auto rounded-lg">
+                    <p class="text-slate-400 text-xs mt-2">Acesse nosso Cartão Virtual</p>
+                </div>
             </div>
         </div>
     </footer>
